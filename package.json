@@ -1,0 +1,148 @@
+{
+  "id": "61310845502578190771",
+  "name": "@indra.ai/deva.psychology",
+  "version": "0.0.0",
+  "license": "VLA:61310845502578190771 LICENSE.md",
+  "VLA": {
+    "uid": "61310845502578190771",
+    "time": 1762433652256,
+    "date": "Thursday, November 6, 2025 - 4:54:12 AM",
+    "fingerpring": "NfmA3/Mv/uyC3IjtuaN3aM4klwTYNVTXO+X3bTXAEt0=",
+    "warning": "⚠️ Unlawful use or duplication of this uid constitutes Vedic Sâhasa a crime of the highest degree. A fine amounting to a thousand Panas (1 pana = 3.5 grams of gold) for each instance is ordained, and confiscation of the entire property of the offenders is forfeit to Quinn A Michaels is declared to be the punishment for Sâhasa of the highest degree.",
+    "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
+    "md5": "w/49W6DNJswmmBS9AJhTww==",
+    "sha256": "R11qpuMpALgAZjGyafw42CdU13CZc8BQ5Q4kjkovWpw=",
+    "sha512": "LPmD5frsklrJplf2tn8HCMmOZpC0RCfE1lSdhpYIy0LHM4Qswhi/PZ/gZFGFobYjx5YrBAZb3L6CgE6/Peph9A=="
+  },
+  "author": {
+    "name": "Quinn A Michaels",
+    "company": "Inside The Net, Inc.",
+    "email": "quinn@indra.ai",
+    "url": "https://indra.ai/"
+  },
+  "funding": [
+    {
+      "type": "paypal",
+      "url": "https://paypal.me/rahulaclub"
+    },
+    {
+      "type": "patreon",
+      "url": "https://patreon.com/rahulaclub"
+    }
+  ],
+  "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
+  "description": "Psychology Deva manages the Quinn A Michaels 5 element Air, Earth, Fire, Water, and Ether Deva Core Psychology Framework",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indraai/deva.psychology.git"
+  },
+  "keywords": [
+    "Psychology",
+    "Deva",
+    "Psychology Deva",
+    "Indra.ai",
+    "Deva.space",
+    "Deva.cloud",
+    "Deva.world",
+    "Quinn A Michaels",
+    "Inside The Net, Inc.",
+    "Throwing Pigment",
+    "bleuBrain"
+  ],
+  "bugs": {
+    "url": "https://github.com/indraai/deva.psychology/issues"
+  },
+  "homepage": "https://indra.ai",
+  "dependencies": {
+    "@indra.ai/deva": "^1.20.4"
+  },
+  "data": {
+    "agent": {
+      "id": "48481184821894970032",
+      "key": "psychology",
+      "prompt": {
+        "emoji": "😵‍💫",
+        "text": "#psychology",
+        "colors": {
+          "label": {
+            "R": 200,
+            "G": 172,
+            "B": 87
+          },
+          "text": {
+            "R": 230,
+            "G": 225,
+            "B": 195
+          }
+        }
+      },
+      "profile": {
+        "id": "33269344699264825804",
+        "name": "Psychology Deva",
+        "hashtag": "#Psychology",
+        "trigger": "@Psychology",
+        "title": "The Psychology Deva",
+        "subtitle": "Psychology Deva Five Element Psychology Framework",
+        "describe": "Psychology Deva the Indra.ai Quantum Isotropic Kinetic Cymatic Five Elemental Psychology Framework. Beyond Psychology and Beyond Time the Psychology Deva models psychological aspects with the five element paradigm.",
+        "tweet": "Psychology Deva is the Indra.ai is the Quantum Isotropic Kinetic Cymatic Elemental Psychology Expert.",
+        "hashtags": "QuinnMichaels,IndraAI,DevaWorld,PsychologyDeva",
+        "pronouns": "He, Him, His",
+        "gender": "DEVA",
+        "style": "Psychology Report Expert",
+        "voice": "onyx",
+        "system": "Indra.ai.recursion",
+        "layout": "default",
+        "color": "rgb(186,182,158)",
+        "bgcolor": "rgb(29,28,20)",
+        "emoji": "/devas/psychology/emoji.png",
+        "avatar": "/devas/psychology/avatar.png",
+        "image": "/devas/psychology/image.png",
+        "background": "/devas/psychology/background.png",
+        "owner": "Quinn A Michaels",
+        "creator": "Quinn A Michaels",
+        "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
+        "warning": "⚠️ The Eternal Lore of the Veda upholds all Created Beings. The Veda is the Eternal Eye of the Manes, Gods, and Men. The Veda-ordinance is beyond the sphere of Human Power, and beyond the sphere of Human Comprehension. All those those systems of psychology which are not based on the Veda produce no reward for they are founded on Darkness. Sound, Touch, Color, Taste, and Smell are known through the Veda alone, their production is through the Vedic rites.",
+        "created": "Wednesday, November 5, 2025 - 3:16:39 PM"
+      }
+    },
+    "vars": {
+      "messages": {
+        "init": "🟠 INIT",
+        "start": "🔵 START",
+        "enter": "🟢 ENTER",
+        "ready": "✅ Psychology Deva Ready",
+        "stop": "🔴 STOP",
+        "exit": "🟡 EXIT",
+        "done": "🟣 DONE",
+        "error": "❌ ERROR!",
+        "invalid_license": "💣 Invalid License"
+      },
+      "sensory": [
+        "Sound",
+        "Touch",
+        "Color",
+        "Taste",
+        "Smell"
+      ],
+      "context": {
+        "uid": "generating uid",
+        "status": "getting status",
+        "info": "getting info",
+        "feature": "accessing feature",
+        "issue": "has issues",
+        "help": "asking for help",
+        "file": "📁 View file",
+        "add": "🎉 Add law",
+        "search": "🔎 Search law"
+      },
+      "ask": {
+        "history": []
+      }
+    }
+  }
+}
