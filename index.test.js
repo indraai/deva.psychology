@@ -4,18 +4,18 @@
 // Distributed under VLA:65628177162971409215 LICENSE.md
 
 const {expect} = require('chai')
-const PhysicsDeva = require('./index.js');
+const PsychologyDeva = require('./index.js');
 
-describe(PhysicsDeva.me.name, () => {
+describe(PsychologyDeva.me.name, () => {
   beforeEach(() => {
-    return PhysicsDeva.init()
+    return PsychologyDeva.init()
   });
   it('Check the DEVA Object', () => {
-    expect(PhysicsDeva).to.be.an('object');
-    expect(PhysicsDeva).to.have.property('agent');
-    expect(PhysicsDeva).to.have.property('vars');
-    expect(PhysicsDeva).to.have.property('listeners');
-    expect(PhysicsDeva).to.have.property('methods');
-    expect(PhysicsDeva).to.have.property('modules');
+    expect(PsychologyDeva).to.be.an('object');
+    expect(PsychologyDeva).to.have.property('agent');
+    expect(PsychologyDeva).to.have.property('vars');
+    expect(PsychologyDeva).to.have.property('listeners');
+    expect(PsychologyDeva).to.have.property('methods');
+    expect(PsychologyDeva).to.have.property('modules');
   });
 })

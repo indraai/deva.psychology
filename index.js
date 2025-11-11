@@ -3,7 +3,7 @@
 // Legal Signature Required For Lawful Use.
 // Distributed under VLA:65628177162971409215 LICENSE.md
 
-// Physics Deva
+// Psychology Deva
 import Deva from '@indra.ai/deva';
 
 import pkg from './package.json' with {type:'json'};
@@ -41,12 +41,37 @@ const PSYCHOLOGY = new Deva({
   listeners: {},
   modules: {},
   func: {
-    async sensory(idx, packet) {
-      this.vars.status = this.vars.sensory[idx].toLowerCase();
-      const uid = await this.methods.uid(packet);      
-      this.vars.status = false;
-      return uid;
-    }
+    async aspect(opts) {
+    const estr = `aspect:${opts.type}:${opts.key}:${opts.packet.id.uid}`;
+    this.context(opts.key, opts.packet.id.uid);
+    this.action('func', estr);
+    
+    const {key, name, warning} = this.vars[opts.type][opts.key];
+    
+    this.vars.status = key;
+    this.vars.warning = warning;
+    this.state('await', estr);
+    const uid = await this.methods.uid(opts.packet);
+  
+    this.vars.status = false;
+    this.vars.warning = false;
+  
+    this.action('return', estr); // set action return
+    this.state('valid', estr);
+    this.intent('good', estr);
+    return uid;
+  },
+  async router(type, packet) {
+    const key = packet.q.meta.params.pop();
+    const estr = `router:${type}:${key}:${packet.id.uid}`;
+    this.context(type, packet.id.uid);
+    this.action('func', estr);
+
+    const opts = {key, type, packet};
+    this.action('return', estr); // set action return
+    this.state('await', `${key}:router:${packet.id.uid}`); // set action return
+    return await this.func.aspect(opts);      
+  }
   },
   methods: {
     async sound(packet) {
